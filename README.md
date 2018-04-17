@@ -13,7 +13,7 @@ Upon cloning this respository simply change your directory to the project folder
 
 ### Final Product
 
-A brief overview of the layout of the page:
-#### The Landing
-!["Screenshot of the landing view"](https://github.com/maarsej/chatty/blob/master/docs/Screen%20Shot%202018-04-17%20at%202.18.18%20PM.png?raw=true)
+A brief look at the page:
+#### The Chat
+!["Screenshot of the chat view"](https://github.com/maarsej/chatty/blob/master/docs/Screen%20Shot%202018-04-17%20at%202.18.18%20PM.png?raw=true)
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'; //can do because of babel, not avail in nodejs yet
+import React, { Component } from 'react';
 
 class Chatbar extends Component {
     constructor(props) {

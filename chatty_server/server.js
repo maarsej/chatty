@@ -17,9 +17,6 @@ const server = express()
 // Create the WebSockets server
 const wss = new SocketServer({ server });
 
-// Set up a callback that will run when a client connects to the server
-// When a client connects they are assigned a socket, represented by
-// the ws parameter in the callback.
 let colorpicker = 0;
 let colors = ["#00FFFF", "#7FFF00","#FFD700","#DC143C"]
 

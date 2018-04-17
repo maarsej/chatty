@@ -34,7 +34,6 @@ class App extends Component {
     }
   }
   _newMessage = (incomingMessage) => {
-    // incomingMessage.username = this.state.currentUser.name;
     let messageString = JSON.stringify(incomingMessage)
     this.socket.send(messageString);
   }
@@ -44,7 +43,6 @@ class App extends Component {
     this.socket.send(notificationString);
 
   }
-  
 
   render() {
     return (
