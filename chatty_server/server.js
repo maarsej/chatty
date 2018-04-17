@@ -28,7 +28,6 @@ wss.on('connection', (ws) => {
   //assigns color
   ws.color = colors[(colorpicker%4)];
   colorpicker++;
-  console.log(ws.color)
 
   //updates active users
   let clientUpdate = { type: "userUpdate", userCount: wss.clients.size }
@@ -54,7 +53,6 @@ wss.on('connection', (ws) => {
         //stringify
         data.color = ws.color;
         let outgoing = JSON.stringify(data)
-        console.log(outgoing);
         client.send(outgoing);
       }
     });
