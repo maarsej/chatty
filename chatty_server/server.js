@@ -22,6 +22,7 @@ let colors = ["#00FFFF", "#7FFF00","#FFD700","#DC143C"]
 
 wss.on('connection', (ws) => {
   console.log('Client connected');
+  
   //assigns color
   ws.color = colors[(colorpicker%4)];
   colorpicker++;
